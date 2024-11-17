@@ -38,10 +38,10 @@ int main() {
     linear.computeRoots(x1, x2, rootCount);
 
     if (rootCount == 1) {
-        cout << "Linear equation root: " << x1 << std::endl;
+        cout << "Linear equation root: " << x1 << endl;
     }
     else {
-        cout << "No roots for the linear equation." << std::endl;
+        cout << "No roots for the linear equation." << endl;
     }
 
     
